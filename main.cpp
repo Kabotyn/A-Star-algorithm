@@ -11,10 +11,10 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    SpaceProbe sp(50, 0, 0, 49, 49);
+    SpaceProbe sp(20, 0, 0, 19, 0);
     sp.showSpace();
     if(sp.run()) {
-        qDebug() << "=================================";
+        qDebug() << "================ Found path =================";
         sp.showSpace();
     }
 

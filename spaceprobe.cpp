@@ -56,11 +56,11 @@ void SpaceProbe::setSpaceSize(int p_N) {
 }
 
 void SpaceProbe::countA() {
-    A = ceil(N * N * 0.1); // 30% of all fields will be asteroids
+    A = ceil(N * N * 0.1); // 10% of all fields will be asteroids
 }
 
 void SpaceProbe::countG() {
-    G = round(N * N * 0.05);
+    G = round(N * N * 0.05); // 5% of all fields will be a Gravity wells
 }
 
 void SpaceProbe::countF() {

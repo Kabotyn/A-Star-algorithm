@@ -8,11 +8,17 @@
 class SpaceProbe
 {
 public:
+    /* p_N - field size p_N * p_N
+     * p_startR - row of start position
+     * p_startC - col of start position
+     * p_endR - row of end position
+     * p_endC - col of end position
+     */
     SpaceProbe(int p_N, int p_startR, int p_startC, int p_endR, int p_endC);
     ~SpaceProbe();
 
     void setSpaceSize(int p_N);   // set N (space size)
-    void showSpace();
+    void showSpace();   // draw space on screen in console
 
 
     bool run(); // return true when found way, return false if not

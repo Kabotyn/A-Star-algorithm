@@ -5,7 +5,7 @@
 #include <list>
 #include "node.h"
 
-class AStar //: public Node
+class AStar
 {
 public:
 

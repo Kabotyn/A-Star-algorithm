@@ -25,3 +25,6 @@ HEADERS += \
     astar.h \
     node.h \
     spaceprobe.h
+
+DISTFILES += \
+    README.md
